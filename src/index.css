@@ -1,0 +1,15 @@
+:root {
+  --backgroundPrimary: #020612;
+}
+
+html,
+body,
+main {
+  box-sizing: border-box;
+  padding: 5;
+  margin: 24px;
+}
+
+body {
+  background-color: var(--backgroundPrimary);
+}
