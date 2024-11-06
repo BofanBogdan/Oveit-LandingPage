@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPng from "../../assets/App Login.png";
+import BannerPng from "../../assets/badgeapp.jpg";
 import { Box, Grid } from "@mui/material";
 import {
   Banner,
@@ -9,9 +9,9 @@ import {
   BoxWrite,
   StyledImage,
   ImgGrid,
-} from "./LoginBanner.style";
+} from "./SectionOne.style";
 
-const LoginBanner = () => {
+const Banner2 = () => {
   return (
     <Banner>
       <Box sx={{ py: { xs: 12, md: 24 } }}>
@@ -30,21 +30,21 @@ const LoginBanner = () => {
             >
               <BoxWrite>
                 <Title variant="h4" component="h1">
-                  Protected Login: Security at Every Step{" "}
+                  Connected to Oveit Ticketing and Registration{" "}
                 </Title>
                 <Text variant="body1">
-                  The login page of our application is designed to ensure quick
-                  and secure access to the reserved area. Users enter their
-                  email and password, and this information is validated to check
-                  the correctness of the entered data. Users can have different
-                  roles, and access is restricted based on these roles; for
-                  example, event check-in staff have limited access. In case the
-                  user forgets their password, there is a "Forgot Password"
-                  option to request a recovery link. After entering the email,
-                  the server checks its existence and sends instructions for
-                  resetting the password, providing feedback to the user through
-                  success or error messages. Additionally, users can easily log
-                  out of the application using a logout button.
+                  One Connected System for Effortless Check-Ins
+                </Text>
+                <Text variant="body1">
+                  When your guests register, their details automatically sync
+                  with our badge printing and check-in platform. It’s all
+                  connected—ticketing, registration, and now, on-the-spot badge
+                  printing. Forget manual data entry and let Oveit handle the
+                  details for you.
+                </Text>
+                <Text variant="body1">
+                  Benefits: Automated attendee data | Real-time updates |
+                  Effortless integrations
                 </Text>
               </BoxWrite>
             </BoxGrid>
@@ -64,4 +64,4 @@ const LoginBanner = () => {
   );
 };
 
-export default LoginBanner;
+export default Banner2;

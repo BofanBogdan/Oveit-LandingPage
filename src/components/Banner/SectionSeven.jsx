@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPng from "../../assets/badgeapp.jpg";
+import BannerPng from "../../assets/App Login.png";
 import { Box, Grid } from "@mui/material";
 import {
   Banner,
@@ -9,9 +9,9 @@ import {
   BoxWrite,
   StyledImage,
   ImgGrid,
-} from "./DescriptionApp.style";
+} from "./SectionSeven.style";
 
-const Banner2 = () => {
+const LoginBanner = () => {
   return (
     <Banner>
       <Box sx={{ py: { xs: 12, md: 24 } }}>
@@ -30,15 +30,29 @@ const Banner2 = () => {
             >
               <BoxWrite>
                 <Title variant="h4" component="h1">
-                  Great events are with the Oveit App
+                  Create the Badge Design
                 </Title>
                 <Text variant="body1">
-                  With the new Oveit application, you will be able to provide a
-                  scanning and check-in platform for visitors, reducing waiting
-                  times. Our application offers the possibility to support
-                  events that operate based on badges or through check-in
-                  points.
+                  Design With Ease—A Badge as Unique as Your Event
                 </Text>
+                <Text variant="body1">
+                  Add the fields you need and position elements as you want. Our
+                  badge design tool makes it easy to create visually appealing
+                  badges that suit your event’s identity.
+                </Text>
+                <Text variant="body1">
+                  Simple Design Interface: Drag and drop elements into place.
+                </Text>
+                <Text variant="body1">
+                  Add Key Data: Name, company, and more, directly from
+                  registration data.{" "}
+                </Text>
+                <Text variant="body1">
+                  QR Code Support: Scan and access control all in one.
+                </Text>
+                <Text variant="body1">
+                  Benefit: Design badges that stand out.{" "}
+                </Text>{" "}
               </BoxWrite>
             </BoxGrid>
           </Grid>
@@ -57,4 +71,4 @@ const Banner2 = () => {
   );
 };
 
-export default Banner2;
+export default LoginBanner;

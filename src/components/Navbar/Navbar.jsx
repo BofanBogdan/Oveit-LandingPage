@@ -30,7 +30,7 @@ const Navbar = () => {
           <Box display="flex" alignItems="center">
             <LogoImage src={Logo} alt="Oveit Logo" />
             <NavTitle variant="h4" component="h1" fontWeight="bold">
-              Oveit Badges
+              Oveit Checkin
             </NavTitle>
           </Box>
           {/* Menu section */}
